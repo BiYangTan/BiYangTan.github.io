@@ -13,12 +13,37 @@
     <language>en</language>
     <lastBuildDate>Fri, 08 Sep 2023 14:52:44 +0800</lastBuildDate><atom:link href="https://BiYangTan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second</title>
+      <title>Hugo &#43; Github配置个人博客搭建指南</title>
       <link>https://BiYangTan.github.io/posts/second/</link>
       <pubDate>Fri, 08 Sep 2023 14:52:44 +0800</pubDate>
       
       <guid>https://BiYangTan.github.io/posts/second/</guid>
-      <description>敲代码的重要性,一定要敲，和一定要写</description>
+      <description>写在前面
+正如我前文所说，我在整个的搭建过程中还是踩了不少的坑，究其原因，就是因为太怕麻烦，结果变得更加麻烦，反而浪费时间。
+所以授人以鱼不如授人以渔，我想在我写的教程里尽量将可能出现的问题和原因都写清楚，也算是对今天这一天不务正业的总结。
+应该是详细的，不详细的话，只能不详细了。。。
+希望你已经安装了git
+安装hugo 感觉没啥好说的，但还是说一说把。
+安装hugo的方式很多，根据个人电脑的不同环境，可以跟着官方文档安装。
+受限于魔法，我所有的安装都是采用下载压缩包，解压配置路径再使用的，可能比较适合那些同样受限于魔法的人，也不一定，毕竟总归是要有魔法才能配置在GitHub上面的，反正我情况特殊，结合自身情况这是最适合我的方法，教程只是参考，一定不要跟着无脑操作。(切记！切记！)
+这一步可以参照网上很多人的文档，最推荐官方，链接如下 https://github.com/gohugoio/hugo/releases
+选择对应的压缩包版本，这里注意一下有extend的区别，我看了一下，extend只是多了一些可以自己操作的东西，新手还是建议老老实实的。
+下载好压缩包之后，不论你是解压到哪里，都需要配置路径才能使用，因此一般推荐安装在除C盘之外的盘，例如我放在D盘中，新建一个文件夹Hugo，将解压的内容放进去，你可以看到最主要的其实就是一个.exe的二进制文件(意味着人家已经编译好了，我们直接拿来用就可以)，并将源文件夹的名字修改为bin。
+解释一下，为什么要改文件夹名字？ &amp;ndash;&amp;gt; 为了添加环境变量
+为什么文件夹的名字是bin？ &amp;ndash;&amp;gt; “约定俗成”，二进制的英文是 binary ，取前三个字母，其实没有什么特殊的含义，你要高兴，取你自己的名字都行，只要把.exe文件添加进环境变量就行
+什么是环境变量？ &amp;ndash;&amp;gt; emmmn，好问题，详细的无法解释，粗略一点，只有程序被添加到环境变量中后，才能被我们的操作系统识别并调用。
+如何添加环境变量？ &amp;ndash;&amp;gt; 请善用搜索引擎，有很多写得超级详细
+当你添加好环境变量之后，可以打开cmd(命令提示符)，输入hugo version，显示版本信息后就说明安装成功了。(写到这里突然意识到，第一步或许是安装git比较好&amp;hellip;.)
+使用hugo 假设，你已经安装好了git。
+嗯，我们已经完成了第一步安装hugo，接下来就是使用的问题，然而当你直接点那个.exe文件时，嗯，才发现点不动
+因为它的使用方法有点特殊
+首先，我们最好在Hugo这个文件夹下，在bin的旁边再新建一个文件夹，我给它的名字sites，同样的，你完全可以取其他名字，没有影响。
+文件夹sites的用处？ &amp;ndash;&amp;gt; 为了方便折腾，你可以在这个文件夹下新建n多个站点，给他们不同的配置，看一下能产生什么奇妙的东西。当然，你说我只想建一个站点，那也是完全可以的，可以选择不创建这个文件夹。
+点进/sites文件下，(在你已经安装了git的情况下)，直接右击鼠标，选择使用git bash那个选项进入命令行界面：
+命令行是什么？ &amp;ndash;&amp;gt; 一种操作工具，用户可以通过输入命令来完成各种各样的系统或程序操作，相比起图形界面而言，因为直接面向操作系统，其可操作性更强。
+创建新站点
+站点什么意思？ &amp;ndash;&amp;gt; 草率的理解成一个新的网页界面，，，草率的
+hugo new site my-site // cd my-site //my-site文件的结构如下 my-site/ ├── archetypes/ │ └── default.md ├── assets/ ├── content/ ├── data/ ├── i18n/ ├── layouts/ ├── static/ ├── themes/ └── hugo.</description>
     </item>
     
     <item>
@@ -39,12 +64,16 @@
     </item>
     
     <item>
-      <title>First</title>
+      <title>一些话</title>
       <link>https://BiYangTan.github.io/posts/first/</link>
       <pubDate>Fri, 08 Sep 2023 14:49:02 +0800</pubDate>
       
       <guid>https://BiYangTan.github.io/posts/first/</guid>
-      <description>是一个test！！ 这些都可以被改变的。 我魅力四射的女孩子 </description>
+      <description>很早之前就尝试过用hugo搭建个人博客，许是心浮气躁还是别的什么原因，尝试了很久都没有成功。
+放弃很久之后，受杨树大神激发，又尝试了一次，这次慢慢摸索居然就成功了，理解具体操作之后发现其实也不是那么的难。
+深刻的明白了，知其然和知其所以然的区别，与其傻傻地看人家的教程，不如直接按着官方文档摸索，说不定快多了。
+再次致谢onetree，要不是看你成功了，我打死也不玩这个了。
+其他的就后面慢慢填慢慢补，反正雏形已经出来了，希望我不要弃坑。。。</description>
     </item>
     
     
