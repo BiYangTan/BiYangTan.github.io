@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on biyang</title>
+    <link>https://BiYangTan.github.io/posts/</link>
+    <description>Recent content in Posts on biyang</description>
+    <image>
+      <title>biyang</title>
+      <url>https://BiYangTan.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://BiYangTan.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Sep 2023 14:52:44 +0800</lastBuildDate><atom:link href="https://BiYangTan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://BiYangTan.github.io/posts/second/</link>
+      <pubDate>Fri, 08 Sep 2023 14:52:44 +0800</pubDate>
+      
+      <guid>https://BiYangTan.github.io/posts/second/</guid>
+      <description>敲代码的重要性,一定要敲，和一定要写</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;学习笔记</title>
+      <link>https://BiYangTan.github.io/posts/c&#43;&#43;/</link>
+      <pubDate>Fri, 08 Sep 2023 14:49:02 +0800</pubDate>
+      
+      <guid>https://BiYangTan.github.io/posts/c&#43;&#43;/</guid>
+      <description>结构体 利用结构体指针“ struct*”来访问结构体内的成员需要用&amp;rsquo;-&amp;gt;&amp;lsquo;符号 结构体数组： 将自定义的结构体放在数组中以方便维护 语法：struct 结构体名 数组名[个数]；
+结构体也可以嵌套结构体 被嵌套的结构体需要放在大结构体之前
+结构体做函数参数 传递方式：值传递；地址传递
+内存分区模型 全局区：存放全局变量和静态变量以及常量 全局区不由我们控制，如： int g = 0; static int s_a =10; 栈区：由编译器自动分配释放 堆区：由程序员分配释放，如果程序员不分配释放，程序结束时由操作系统回收。 使用new来开辟堆区内存 int* a = new int(10); 指针本质上是局部变量，放在栈上，指针保存的数据是在堆上的。
+引用做函数参数 引用就是给变量起一个别名，使用代码是 数据类型 &amp;amp;别名 = 原名，例如： int &amp;amp;b = a; 引用必须初始化，引用之后就不能再更改了； 引用相当于，两个参数名称a,b都指向了同一块内存
+引用的本质是一个常量指针 常数引用，不能修改被引用的值 const int&amp;amp; v=10;等价于 int temp=10; const int&amp;amp; v=temp;
+函数提高 函数默认参数 函数的形参是可以有默认参数的
+函数占位参数 void func(int a, int ) 调用函数时，占位参数必须得补齐
+函数重载 作用：函数名相同，提高重复利用性 即可以使用不同的参量调用相同的函数 函数重载满足的条件： 1.同一个作用域，namespace; 2.函数名称相同 3.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://BiYangTan.github.io/posts/first/</link>
+      <pubDate>Fri, 08 Sep 2023 14:49:02 +0800</pubDate>
+      
+      <guid>https://BiYangTan.github.io/posts/first/</guid>
+      <description>是一个test！！ 这些都可以被改变的。 我魅力四射的女孩子 </description>
+    </item>
+    
+  </channel>
+</rss>
