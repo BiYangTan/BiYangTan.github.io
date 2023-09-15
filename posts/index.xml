@@ -11,7 +11,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Sep 2023 14:52:44 +0800</lastBuildDate><atom:link href="https://BiYangTan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Sep 2023 22:44:35 +0800</lastBuildDate><atom:link href="https://BiYangTan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>山就在那里</title>
+      <link>https://BiYangTan.github.io/posts/%E6%84%9F%E6%82%9F/</link>
+      <pubDate>Fri, 15 Sep 2023 22:44:35 +0800</pubDate>
+      
+      <guid>https://BiYangTan.github.io/posts/%E6%84%9F%E6%82%9F/</guid>
+      <description>随着年纪的增长，不知怎的，人心反而愈发得难静下来，整个身心被大量的洪水般的信息冲洗着裹挟着，处在一种很微妙的状态&amp;ndash;总是期待着有什么信息找到我，或者说总是在做事的时候分心。
+时不时的看消息，虽然从表面上并不影响我什么，频繁的切换状态还是挺耗精力的。
+处在一种脑袋空空，两眼黑黑，身心疲惫的状态，这不是一个好的状态。
+对自己的规划还不够明晰，偶尔，会突然的不知道自己在做什么，失去了行动的动力。
+问题在那里还未被解决，人就先松懈了。
+关关难过关过，解决虚无的办法，还得是正面硬刚，因为登山的理由只有一个&amp;ndash;山在那里。</description>
+    </item>
+    
+    <item>
+      <title>关于找工作</title>
+      <link>https://BiYangTan.github.io/posts/third/</link>
+      <pubDate>Sat, 09 Sep 2023 13:38:22 +0800</pubDate>
+      
+      <guid>https://BiYangTan.github.io/posts/third/</guid>
+      <description>从八月开始，我就处在一种深深的焦虑之中，出于对自身能力的质疑，和对未来的担忧，对于找工作这件事情本身我显得十分的不知措施。
+课题自我感觉做的一塌糊涂，只够勉强毕业，从中也没学会什么东西。
+说到底还是没有从中找到自我效能感。
+希望能拿到满意的offer。
+给自己一个年底之期。</description>
+    </item>
+    
     <item>
       <title>Hugo &#43; Github配置个人博客搭建指南</title>
       <link>https://BiYangTan.github.io/posts/second/</link>
@@ -72,7 +99,7 @@ hugo new site my-site // cd my-site //my-site文件的结构如下 my-site/ ├�
       <description>很早之前就尝试过用hugo搭建个人博客，许是心浮气躁还是别的什么原因，尝试了很久都没有成功。
 放弃很久之后，受杨树大神激发，又尝试了一次，这次慢慢摸索居然就成功了，理解具体操作之后发现其实也不是那么的难。
 深刻的明白了，知其然和知其所以然的区别，与其傻傻地看人家的教程，不如直接按着官方文档摸索，说不定快多了。
-再次致谢onetree，要不是看你成功了，我打死也不玩这个了。
+再次致谢onetreey，要不是看你成功了，我打死也不玩这个了。
 其他的就后面慢慢填慢慢补，反正雏形已经出来了，希望我不要弃坑。。。</description>
     </item>
     
