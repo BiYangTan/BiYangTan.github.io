@@ -11,7 +11,51 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Sep 2023 22:44:35 +0800</lastBuildDate><atom:link href="https://BiYangTan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 19:58:03 +0800</lastBuildDate><atom:link href="https://BiYangTan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dmrg</title>
+      <link>https://BiYangTan.github.io/posts/dmrg/</link>
+      <pubDate>Thu, 05 Oct 2023 19:58:03 +0800</pubDate>
+      
+      <guid>https://BiYangTan.github.io/posts/dmrg/</guid>
+      <description>前言：在网上闲逛，无意间发现了DMRG创始人White讲解DMRG算法的笔记，如获至宝，想起自己之前对它的理解简直不堪入目，全文是对老爷子笔记的不忠实翻译，外加添加一些自己的理解和感悟。
+背景 对于量子力学背景下的多体电子系统，在处理时，我们往往将其分成两个大类：
+1.DFT 用于 all electrons work correlation
+2.QMC(量子蒙特卡洛) “ative” electrons or spins
+ED(精确对角化)
+强关联系统：Ising Model , Hubburd Model , t-J Model ,Heisenberg Model 使用DMRG(密度矩阵重整化群)
+从ED开始来逐步理解DMRG算法
+spin-1/2 小系统的精确对角化 review
+对于一个自旋为1/2的粒子，满足以下等式
+spin operator:
+$$ \vec{s}=\frac{\hbar}{2}\vec{\sigma} $$
+spin basis:
+$$ \begin{pmatrix}
+a\
+b\
+\end{pmatrix} = a|\uparrow&amp;gt;+b|\downarrow&amp;gt; $$
+pauli matrix:
+$$ \sigma_x=
+\begin{pmatrix}
+0&amp;amp;1\
+1&amp;amp;0\
+\end{pmatrix}
+,
+\sigma_y=
+\begin{pmatrix}
+0&amp;amp;-i\
+i&amp;amp;0\
+\end{pmatrix}
+,
+\sigma_z=
+\begin{pmatrix}
+1&amp;amp;0\
+0&amp;amp;-1\
+\end{pmatrix} $$
+在$s_z$表象下，$\sigma_z$是对角化的。
+考虑两个自旋为1/2的粒子的相互作用，其哈密顿量$\hat{H}=\vec{s_1}·\vec{s_2}$,求解其本征能量</description>
+    </item>
+    
     <item>
       <title>山就在那里</title>
       <link>https://BiYangTan.github.io/posts/%E6%84%9F%E6%82%9F/</link>
